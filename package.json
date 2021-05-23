@@ -1,0 +1,34 @@
+{
+  "name": "ecommerserver",
+  "version": "1.0.0",
+  "description": "express server",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon Server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Snehasawla/E-commerse-server.git"
+  },
+  "keywords": [
+    "express",
+    "test"
+  ],
+  "author": "Sneha Sawla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Snehasawla/E-commerse-server/issues"
+  },
+  "homepage": "https://github.com/Snehasawla/E-commerse-server#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.10",
+    "nodeman": "^1.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
